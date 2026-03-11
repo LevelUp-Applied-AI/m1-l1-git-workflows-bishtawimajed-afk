@@ -1,18 +1,51 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/FdVrU54p)
-# [Hospital Admission Records Analysis]
+# Hospital Admission Records Analysis
 
-> **Lab 1 starter repo** — Replace the heading above with your project title. Team member names are not part of the lab — they go in Section 2 of your completed README in the integration task.
-
----
+### Team Members
+* **Rama Mathloni**
+* **Luma Alazzeh**
+* **Majd Bishtawi**
 
 ## Project Overview
-This project aims to analyze hospital admission data to gain insights into healthcare trends. It establishes a standardized environment using Python and specific dependencies to ensure consistent results across the team.
+This project is designed to analyze hospital admission data to identify patterns in patient demographics, admission types, and health outcomes. It provides a structured environment for data processing and analysis, specifically tailored for healthcare data analysts and AI researchers working on predictive modeling.
 
 ---
 
 ## Setup Instructions
 
-TODO: Complete these setup steps after creating your `requirements.txt`:
+ **Clone the repo:** `git clone <your-repo-url>`
+2. **Create VENV:** `python -m venv .venv`
+3. **Activate:**
+   - Windows Git Bash: `source .venv/Scripts/activate`
+   - Mac/Linux: `source .venv/bin/activate`
+4. **Install:** `pip install -r requirements.txt`
+5. **Verify:** `python test_environment.py` (Should print "Environment OK")
+
+### 1. Environment Setup
+ # Create the virtual environment
+python -m venv .venv
+
+# Activate the environment (select the command for your platform):
+
+# Windows (Git Bash)
+source .venv/Scripts/activate
+
+# Windows (Command Prompt)
+.venv\Scripts\activate.bat
+
+# Windows (PowerShell)
+.venv\Scripts\Activate.ps1
+
+# Mac / Linux
+source .venv/bin/activate
+```bash
+# Create the environment
+python -m venv .venv
+
+# Activate it (Windows)
+.venv\Scripts\activate
+
+# Activate it (Mac/Linux)
+source .venv/bin/activate
 
 ```bash
 python -m venv .venv
